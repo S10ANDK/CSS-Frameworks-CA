@@ -11,28 +11,100 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/SD.png" class="logo_image me-4" alt="Logo for Social Dreams">Social Dreams</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand me-5" href="../index.html"><img src="../assets/SD.png" class="logo_image me-4" alt="Logo for Social Dreams">Social Dreams</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="html/profile-page.html">Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="html/login-page.html">Login</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/profile-page.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/login-page.html">Login</a>
+                    </li>
                 </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </nav>
+        <main class="mx-2">
+            <div class="search-container mx-auto my-2">
+                <form class="d-flex flex-column" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-outline-success search-btn my-3" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+            <h1 class="text-center mt-4">Feed</h1>
+            <div class="horizontal_line m-4 mx-auto"></div>
+            <div class="form-container d-flex mx-auto">
+                <form method="get" class="mx-auto">
+                    <textarea class="form-control" placeholder="Write a post.." required></textarea>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary my-3" alt="Submit Button">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="content-container m-4 mx-auto">
+                <div>
+                    <div class="d-flex justify-content-between align-center">
+                        <div class="d-flex flex-direction-coloumn">
+                            <img src="../images/sarah.png" class="profile-pic-mini" alt="Sarah's profile picture">
+                            <p class="contact-name ms-3">Sarah P.</p>
+                        </div>
+                        <p>31.08.2022</p>
+                    </div>
+                    <div class="text-box my-2">
+                        <h2 class="m-4">Social media Application announcement</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <div class="d-flex justify-content-between align-center">
+                        <div class="d-flex flex-direction-coloumn">
+                            <img src="../images/scott.png" class="profile-pic-mini" alt="Scott's profile picture">
+                            <p class="contact-name ms-3">Scott M.</p>
+                        </div>
+                        <p>30.08.2022</p>
+                    </div>
+                    <div class="text-box my-2">
+                        <h2 class="m-4">Diary of a journey</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <div class="d-flex justify-content-between align-center">
+                        <div class="d-flex flex-direction-coloumn">
+                            <img src="../images/patricia.png" class="profile-pic-mini" alt="Patricia's profile picture">
+                            <p class="contact-name ms-3">Patricia A.</p>
+                        </div>
+                        <p>29.08.2022</p>
+                    </div>
+                    <div class="text-box my-2">
+                        <h2 class="m-4">My weekend in the Sahara Desert</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>
