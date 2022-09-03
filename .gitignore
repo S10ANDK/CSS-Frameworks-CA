@@ -1,4 +1,1 @@
-git rm -r --cached node_modules
-git add .
-git commit -m "Removed node_modules folder"
-git push origin master
+node_modules/
