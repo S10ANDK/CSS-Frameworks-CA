@@ -1,10 +1,6 @@
 @import "_variables.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// h1 {
-//     color: $primary-color;
-// }
-
 .logo_image {
   width: 60px;
   height: auto;
@@ -15,35 +11,27 @@
 .nav-item a,
 .btn,
 .navbar-brand:hover  {
-   color: #FFFFFF
-}
-
-.navbar-nav {
-  margin: auto;
+   color: $white;
 }
 
 .active{
-  color:#FFFFFF !important;
+  color: $white !important;
   font-weight: 800;
 }
 
 .nav-item a:hover {
-  color: #FFFFFF;
+  color: $white;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-.nav-link {
-  padding: 20px 0px;
-}
-
 .navbar-toggler {
-  background-color: #FFFFFF;
+  background-color: $white;
 }
 
 .search-btn {
   background-color: $primary;
-  color: #ffffff;
+  color: $white;
   width: 80px;
 }
 
@@ -52,36 +40,12 @@
 }
 
 .btn-outline-success {
-  border-color: #FFFFFF;
+  border-color: $white;
 }
 
 .btn-outline-success:hover {
-  background-color: #FFFFFF; 
-  border-color: #FFFFFF;
-}
-
-.form-control {
-  width: 100%;
-  min-width: 300px;
-  max-width: 400px
-}
-
-.form-container {
-  max-width: 1000px;
-}
-
-.profile-pic-container {
-  max-width: 200px;
-}
-
-.profile-pic {
-  width: 100%;
-  max-width: 1000px;
-  border-radius: 100px;
-}
-
-.search-container {
-  max-width: 600px;
+  background-color: $white; 
+  border-color: $white;
 }
 
 .horizontal_line {
@@ -93,31 +57,6 @@
   margin: 0px auto; 
 }
 
-.profile-pic-mini {
-  width: 40px;
-  height: auto;
-  border-radius: 2px;
-}
-
-.content-container {
-  max-width: 600px;
-}
-
-.text-box {
-  border: 1px solid #b4b4b4;
-  border-radius: 3px;
-}
-
-.login-form {
-  max-width: 335px;
-  margin-top: 100px;
-}
-
-.form-box {
-  max-width: 600px;
-  background-color: #f3f3f3;
-}
-
 .login_button {
   background-color: #818080;
 }
@@ -125,42 +64,5 @@
 .login_button:hover,
 .search-btn:hover {
   background-color: $secondary;
-  color: #FFFFFF;
+  color: $white;
 }
-
-.profile-info,
-.contacts-box,
-.width-box {
-  max-width: 600px;
-}
-
-.contacts-container {
-  width: 100%;
-  max-width: 400px;
-}
-
-.contact-name {
-  transform: translateY(7px);
-}
-
-.contact-name-container {
-  width: 190px;
-  margin-left: 10%;
-}
-
-@media (min-width: 450px) {
-  .contact-name-container {
-    margin-left: auto;
-  }
-}
-
-@media (min-width: 620px) {
-  .horizontal_line {
-    border-right: 600px solid #d3d3d3;
-  }
-
-  .form-control {
-    min-width: 600px;
-  }
-}
-
