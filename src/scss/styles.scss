@@ -1,0 +1,81 @@
+@import "_variables.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.logo_image {
+  width: 60px;
+  height: auto;
+  transform: translateY(-3px);
+}
+
+.navbar-brand,
+.nav-item a,
+.btn,
+.navbar-brand:hover  {
+   color: $white;
+}
+
+.active{
+  color: $white !important;
+  font-weight: 800;
+}
+
+.nav-item a:hover {
+  color: $white;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.navbar-toggler {
+  background-color: $white;
+}
+
+.search-btn {
+  background-color: $primary;
+  color: $white;
+  width: 80px;
+}
+
+.btn:hover {
+  background-color: $secondary;
+}
+
+.btn-outline-success {
+  border-color: $white;
+}
+
+.btn-outline-success:hover {
+  background-color: $white; 
+  border-color: $white;
+}
+
+.horizontal_line {
+  display: block;
+  position: relative;
+  border-right: 300px solid #d3d3d3;
+  height: 1.5px;
+  max-width: 300px;
+  margin: 0px auto; 
+}
+
+.login_button {
+  background-color: #818080;
+}
+
+.login_button:hover,
+.search-btn:hover {
+  background-color: $secondary;
+  color: $white;
+}
+
+.max-width-600 {
+  max-width: 600px;
+}
+
+.mini-profile-pics {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-pic {
+  max-width: 350px;
+}

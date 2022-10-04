@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Your social Dreams profile page, with information about yourself and contacts">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/dist/css/styles.css">
+        <title>Profile Page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand me-5" href="/index.html"><img src="/assets/SD.png" class="logo_image me-4" alt="Logo for Social Dreams">Social Dreams</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link py-4" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-4 active" href="/profile/">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-4" href="login/">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="mx-2">
+            <h1 class="text-center mt-4">Profile</h1>
+            <div class="horizontal_line m-4 mx-auto"></div>
+            <div class="text-center mx-auto">
+                <img src="/images/man.png" class="rounded-circle w-50 profile-pic" alt="profile picture of a man">
+            </div>
+            <div class="border rounded-1 mx-auto my-4 max-width-600">
+                <div class="text-center">
+                    <h2 class="m-4">Info</h2>
+                </div>
+                <p class="m-3">Name: Jack Brown</p>
+                <p class="m-3">Age: 57</p>
+                <p class="m-3">E-mail Address: *******@noroff.no</p>
+                <p class="m-3">Phone number: ########</p>
+                <p class="m-3">Gender: Neutral</p>
+            </div>
+            <div class="border rounded-1 mx-auto pb-4 max-width-600">
+                <div class="text-center">
+                    <h2 class="m-4">Contacts</h2>
+                </div>
+                <div class="row mx-2">
+                    <div class="col d-flex my-3">
+                        <img src="/images/sarah.png" class="rounded-1 mini-profile-pics" alt="Picture of Sarah Palmer">
+                        <p class="contact-name ms-3">Sarah P.</p>
+                    </div>
+                    <div class="col d-flex my-3">
+                        <img src="/images/tom.png" class="rounded-1 mini-profile-pics" alt="Picture of Tom Stones">
+                        <p class="contact-name ms-3">Tom S.</p>
+                    </div>
+                    <div class="col d-flex my-3">
+                        <img src="/images/patricia.png" class="rounded-1 mini-profile-pics" alt="Picture of Patricia Albrighton">
+                        <p class="contact-name ms-3">Patricia A.</p>
+                    </div>
+                    <div class="col d-flex my-3">
+                        <img src="/images/scott.png" class="rounded-1 mini-profile-pics" alt="Picture of Scott Mctominay">
+                        <p class="contact-name ms-3">Scott M.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal_line m-4 mx-auto"></div>
+            <div class="text-box width-box mx-auto mb-4 text-center">
+                <h2 class="my-3">Posts by contacts</h2>
+            </div>
+            <div class="width-box mt-3 mx-auto">
+                <div class="mx-auto max-width-600">
+                    <div class="row">
+                        <div class="col d-flex">
+                            <img src="/images/sarah.png" class="rounded-1 mini-profile-pics" alt="Sarah's profile picture">
+                            <p class="contact-name ms-3">Sarah P.</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>31.08.2022</p>
+                        </div>
+                    </div>
+                    <div class="border rounded-1 my-2">
+                        <h2 class="m-4">Social media Application announcement</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="form-container d-flex mx-auto">
+                    <form method="get" class="w-100 mx-auto max-width-600">
+                        <textarea class="w-100 border rounded-1" placeholder="Write a post on their wall.." required></textarea>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary my-3" alt="Submit Button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="width-box mt-3 mx-auto">
+                <div class="mx-auto max-width-600">
+                    <div class="row">
+                        <div class="col d-flex">
+                            <img src="/images/tom.png" class="rounded-1 mini-profile-pics" alt="Tom's profile picture">
+                            <p class="contact-name ms-3">Tom S.</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>31.08.2022</p>
+                        </div>
+                    </div>
+                    <div class="border rounded-1 my-2">
+                        <h2 class="m-4">New technology on the horizon</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="form-container d-flex mx-auto">
+                    <form method="get" class="w-100 mx-auto max-width-600">
+                        <textarea class="w-100 border rounded-1" placeholder="Write a post on their wall.." required></textarea>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary my-3" alt="Submit Button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="width-box mt-3 mx-auto">
+                <div class="mx-auto max-width-600">
+                    <div class="row">
+                        <div class="col d-flex">
+                            <img src="/images/patricia.png" class="rounded-1 mini-profile-pics" alt="Patricia's profile picture">
+                            <p class="contact-name ms-3">Patricia A.</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>31.08.2022</p>
+                        </div>
+                    </div>
+                    <div class="border rounded-1 my-2">
+                        <h2 class="m-4">My weekend in the Sahara Desert</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="form-container d-flex mx-auto">
+                    <form method="get" class="w-100 mx-auto max-width-600">
+                        <textarea class="w-100 border rounded-1" placeholder="Write a post on their wall.." required></textarea>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary my-3" alt="Submit Button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="width-box mt-3 mx-auto">
+                <div class="mx-auto max-width-600">
+                    <div class="row">
+                        <div class="col d-flex">
+                            <img src="/images/scott.png" class="rounded-1 mini-profile-pics" alt="Scott's profile picture">
+                            <p class="contact-name ms-3">Scott M.</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>31.08.2022</p>
+                        </div>
+                    </div>
+                    <div class="border rounded-1 my-2">
+                        <h2 class="m-4">Diary of a journey</h2>
+                        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididuntut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="form-container d-flex mx-auto">
+                    <form method="get" class="w-100 mx-auto max-width-600">
+                        <textarea class="w-100 border rounded-1" placeholder="Write a post on their wall.." required></textarea>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary my-3" alt="Submit Button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
